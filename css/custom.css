@@ -1,0 +1,92 @@
+/*@import url("//hello.myfonts.net/count/2e9784");*/
+@font-face {font-family: 'UniversLTStd-Light';src: url('webfonts/2E9784_0_0.eot');src: url('webfonts/2E9784_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E9784_0_0.woff2') format('woff2'),url('webfonts/2E9784_0_0.woff') format('woff'),url('webfonts/2E9784_0_0.ttf') format('truetype');}
+
+section {
+  max-width: 100%;
+  height: 12.5%;
+  margin: 0 auto;
+  display: flex;
+}
+
+section-middle {
+  max-width: 100%;
+  height: 25%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.column {
+  margin: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+}
+
+
+/* OTHER STYLES */
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'UniversLTStd-Light', sans-serif;
+  font-size: 0.9em;
+  color: #ffffff;
+  padding: 1.5em;
+  background: #000000;
+  animation: fadein 1.5s;
+  animation-timing-function: ease-out;
+  -moz-animation: fadein 1.5s; /* Firefox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}
+
+.column {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
